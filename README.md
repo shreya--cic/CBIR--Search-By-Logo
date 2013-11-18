@@ -8,10 +8,13 @@ This project is about searching an image in a database through its visual conten
 Feature extraction techniques are implemented in MATLAB and interface is created using PHP & HTML5.
 
 Few of the features selected are:
-Aspect Ratio, 
+MLE for RGB image, 
 Perimeter of the image, 
 Entropy, 
-RGB percentage
+circularity ratio of the image, 
+erosion and dilation on binary image 
+
 
 
 %--------------Functions for the above mentioned features can be found in features.m-----------------%
+%--------------interface.php----conatins the web interface for the application------------------%
